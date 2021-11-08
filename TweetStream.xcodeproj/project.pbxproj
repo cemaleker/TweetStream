@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B93C9BB627347CB20030B5AA /* TweetStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93C9BB527347CB20030B5AA /* TweetStream.swift */; };
 		B9CE57FB2734463A00F96393 /* TweetStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CE57FA2734463A00F96393 /* TweetStreamApp.swift */; };
 		B9CE57FD2734463A00F96393 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CE57FC2734463A00F96393 /* ContentView.swift */; };
 		B9CE57FF2734463B00F96393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CE57FE2734463B00F96393 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B93C9BB527347CB20030B5AA /* TweetStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetStream.swift; sourceTree = "<group>"; };
 		B9CE57F72734463A00F96393 /* TweetStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CE57FA2734463A00F96393 /* TweetStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetStreamApp.swift; sourceTree = "<group>"; };
 		B9CE57FC2734463A00F96393 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				B9CE57FA2734463A00F96393 /* TweetStreamApp.swift */,
 				B9CE57FC2734463A00F96393 /* ContentView.swift */,
+				B93C9BB527347CB20030B5AA /* TweetStream.swift */,
 				B9CE57FE2734463B00F96393 /* Assets.xcassets */,
 				B9CE58032734463B00F96393 /* Info.plist */,
 				B9CE58002734463B00F96393 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93C9BB627347CB20030B5AA /* TweetStream.swift in Sources */,
 				B9CE57FD2734463A00F96393 /* ContentView.swift in Sources */,
 				B9CE57FB2734463A00F96393 /* TweetStreamApp.swift in Sources */,
 			);
